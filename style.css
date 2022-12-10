@@ -1,0 +1,82 @@
+html{
+   /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Koulen', sans-serif;
+ 
+}
+
+main{
+  background-image: url(MFI.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  
+
+p{
+  font-size: 24px;
+  color: aliceblue;
+  text-shadow: 2px 2px black;
+  
+}
+h1 {
+   
+   padding-bottom: 130px;
+    text-align: center;
+    background-image: url('UniKLlogo.png');
+    background-repeat: no-repeat;
+    background-position-x:center ;  
+    background-size: contain; 
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  h2{
+    text-align: center;
+    
+  }
+  #link{
+    width: 50%;
+    height: 50%;
+  }
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  div{
+    display: flex;
+  }
+
+  
+  
+  footer{
+    background-color: dimgray;
+  }
+
+
+  
+

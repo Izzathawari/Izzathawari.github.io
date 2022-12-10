@@ -1,0 +1,61 @@
+html{
+  /* px means "pixels": the base font size is now 10 pixels high  */
+ font-family: 'Koulen', sans-serif;
+}
+
+
+h1{
+  text-align: center;
+  background-image: url(UniKLlogo.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-bottom: 130px;
+}
+
+#me{
+  display: flex;
+}
+#ee{
+  display: flex;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    flex-flow: row wrap;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  div{
+    display: flex;
+
+  }
+
+  .link{
+    
+    display:flex;
+    flex-direction: row;
+  }
+  
+  footer{
+    background-color: dimgray;
+  }

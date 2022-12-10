@@ -1,0 +1,67 @@
+html {
+    /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Koulen', sans-serif;
+    }
+
+  h1{
+    text-align: center;
+    background-image: url(UniKLlogo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-bottom: 130px;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;  
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+.xt{
+      display:flex;
+      flex-direction: row;
+      padding-bottom: 10px;
+      gap: 70px;
+      
+    }
+ 
+  div{
+    display:flex;
+  }
+  .link{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  footer{
+    background-color: dimgray;
+  }
+ 
+ img{
+  height:auto;
+  width: 300px;
+ }
+ .loop{
+  width: 50%;
+  height: 50%;
+ }
